@@ -1,0 +1,25 @@
+name: mecab-docker
+on:
+  push:
+    branches: main
+    paths:
+      - "manifests/registry-1.docker.io/library/alpine/*.json"
+      - "manifests/registry-1.docker.io/library/buildpack-deps/*.json"
+      - "manifests/registry-1.docker.io/library/debian/*.json"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: shogo82148/mecab-docker
+          token: ${{ secrets.SHOGO_GITHUB_TOKEN }}
+          ref: main
+          fetch-depth: 0
+      - run: |
+          TAG=$(date +%Y-%m-%d)
+          MESSAGE=$(jq -r .head_commit.message < "$GITHUB_EVENT_PATH")
+          git tag -a "$TAG" -m "$MESSAGE"
+          git push --tags
