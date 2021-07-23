@@ -6,6 +6,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"reflect"
 	"sort"
 	"strings"
@@ -31,30 +32,45 @@ var targets = []string{
 	"lambci/lambda:provided.al2",
 }
 
-const statusFile = "status.json"
-
 var status map[string]*registry.Manifests
 var updated map[string]struct{}
 
 func loadStatus() error {
-	data, err := os.ReadFile(statusFile)
-	if os.IsNotExist(err) {
-		status = map[string]*registry.Manifests{}
-		return nil
+	status = map[string]*registry.Manifests{}
+	for _, image := range targets {
+		host, repo, tag := registry.GetRepository(image)
+		statusFile := filepath.FromSlash("manifests/" + host + "/" + repo + "/" + tag + ".json")
+		data, err := os.ReadFile(statusFile)
+		if os.IsNotExist(err) {
+			continue
+		}
+		if err != nil {
+			return err
+		}
+
+		var manifests *registry.Manifests
+		if err := json.Unmarshal(data, &manifests); err != nil {
+			continue
+		}
+		status[image] = manifests
 	}
-	if err != nil {
-		return err
-	}
-	return json.Unmarshal(data, &status)
+	return nil
 }
 
 func saveStatus() error {
-	data, err := json.MarshalIndent(status, "", "    ")
-	if err != nil {
-		return err
-	}
-	if err := os.WriteFile(statusFile, data, 0644); err != nil {
-		return err
+	for image := range updated {
+		host, repo, tag := registry.GetRepository(image)
+		statusFile := filepath.FromSlash("manifests/" + host + "/" + repo + "/" + tag + ".json")
+		if err := os.MkdirAll(filepath.Dir(statusFile), 0755); err != nil {
+			return err
+		}
+		data, err := json.MarshalIndent(status[image], "", "    ")
+		if err != nil {
+			return err
+		}
+		if err := os.WriteFile(statusFile, data, 0644); err != nil {
+			return err
+		}
 	}
 	return commit()
 }
@@ -97,7 +113,7 @@ func commit() error {
 	}{
 		{git, []string{"config", "--local", "user.name", "Ichinose Shogo"}},
 		{git, []string{"config", "--local", "user.email", "shogo82148@gmail.com"}},
-		{git, []string{"add", statusFile}},
+		{git, []string{"add", "."}},
 		{git, []string{"commit", "-m", "update: " + strings.Join(updates, ", ")}},
 		{git, []string{"push", "origin", "main"}},
 	}

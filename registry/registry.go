@@ -205,7 +205,7 @@ func (c *Client) getManifests(ctx context.Context, host, repo, tag string) (*Man
 }
 
 func (c *Client) GetManifests(ctx context.Context, image string) (*Manifests, error) {
-	host, repo, tag := getRepository(image)
+	host, repo, tag := GetRepository(image)
 
 	var manifests *Manifests
 	var err error
@@ -236,7 +236,8 @@ func (c *Client) GetManifests(ctx context.Context, image string) (*Manifests, er
 	return c.getManifests(ctx, host, repo, tag)
 }
 
-func getRepository(image string) (host, repo, tag string) {
+// GetRepository splits the image name to host, repository, and tag.
+func GetRepository(image string) (host, repo, tag string) {
 	if idx := strings.IndexRune(image, ':'); idx >= 0 {
 		tag = image[idx+1:]
 		image = image[:idx]
