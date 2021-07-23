@@ -23,6 +23,12 @@ var targets = []string{
 	"buildpack-deps:buster",
 	"debian:bullseye-slim",
 	"debian:buster-slim",
+	"amazon/aws-lambda-provided:al2",
+	"amazon/aws-lambda-provided:alami",
+	"lambci/lambda:build-provided",
+	"lambci/lambda:build-provided.al2",
+	"lambci/lambda:provided",
+	"lambci/lambda:provided.al2",
 }
 
 const statusFile = "status.json"
