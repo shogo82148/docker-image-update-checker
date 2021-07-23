@@ -1,4 +1,6 @@
 {
+    "schemaVersion": 2,
+    "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
     "manifests": [
         {
             "digest": "sha256:2865e94ffbf88960daa4af07b1d50ec3d00715f8b2563045bd047f62522439fa",

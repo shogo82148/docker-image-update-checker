@@ -25,7 +25,15 @@ type Client struct {
 }
 
 type Manifests struct {
-	Manifests []*Manifest `json:"manifests"`
+	SchemaVersion int    `json:"schemaVersion"`
+	MediaType     string `json:"mediaType"`
+
+	// application/vnd.docker.distribution.manifest.list.v2+json
+	Manifests []*Manifest `json:"manifests,omitempty"`
+
+	// application/vnd.docker.distribution.manifest.v2+json
+	Config *Config  `json:"config,omitempty"`
+	Layers []*Layer `json:"layers,omitempty"`
 }
 
 type Manifest struct {
@@ -39,6 +47,18 @@ type Platform struct {
 	Architecture string `json:"architecture"`
 	OS           string `json:"os"`
 	Variant      string `json:"variant,omitempty"`
+}
+
+type Config struct {
+	MediaType string `json:"mediaType"`
+	Size      int64  `json:"size"`
+	Digest    string `json:"digest"`
+}
+
+type Layer struct {
+	MediaType string `json:"mediaType"`
+	Size      int64  `json:"size"`
+	Digest    string `json:"digest"`
 }
 
 type loginInfo struct {
@@ -178,7 +198,7 @@ func (c *Client) getManifests(ctx context.Context, host, repo, tag string) (*Man
 	if err != nil {
 		return nil, err
 	}
-	req.Header.Set("Accept", "application/vnd.docker.distribution.manifest.list.v2+json")
+	req.Header.Set("Accept", "application/vnd.docker.distribution.manifest.list.v2+json, application/vnd.docker.distribution.manifest.v2+json;q=0.9")
 	if token := c.getCachedToken(host); token != "" {
 		req.Header.Set("Authorization", "Bearer "+token)
 	}
