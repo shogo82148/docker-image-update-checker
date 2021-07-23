@@ -279,6 +279,12 @@
             }
         ]
     },
+    "amazon/aws-lambda-provided:al2": {
+        "manifests": null
+    },
+    "amazon/aws-lambda-provided:alami": {
+        "manifests": null
+    },
     "buildpack-deps:bullseye": {
         "manifests": [
             {
@@ -594,5 +600,17 @@
                 "size": 529
             }
         ]
+    },
+    "lambci/lambda:build-provided": {
+        "manifests": null
+    },
+    "lambci/lambda:build-provided.al2": {
+        "manifests": null
+    },
+    "lambci/lambda:provided": {
+        "manifests": null
+    },
+    "lambci/lambda:provided.al2": {
+        "manifests": null
     }
 }
