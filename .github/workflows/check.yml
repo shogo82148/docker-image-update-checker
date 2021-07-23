@@ -16,5 +16,5 @@ jobs:
           ref: main
           fetch-depth: 0
       - name: check updates
-        runs: |
+        run: |
           go run .
