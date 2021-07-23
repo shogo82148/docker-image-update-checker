@@ -16,14 +16,26 @@ import (
 )
 
 var targets = []string{
+	// alpine
 	"alpine:3.11",
 	"alpine:3.12",
 	"alpine:3.13",
 	"alpine:3.14",
+
+	// debian
 	"buildpack-deps:bullseye",
 	"buildpack-deps:buster",
 	"debian:bullseye-slim",
 	"debian:buster-slim",
+
+	// ubuntu
+	"ubuntu:18.04",
+	"ubuntu:20.04",
+
+	// amazonlinux
+	"amazonlinux:2",
+
+	// images for AWS Lambda
 	"amazon/aws-lambda-provided:al2",
 	"amazon/aws-lambda-provided:alami",
 	"lambci/lambda:build-provided",
