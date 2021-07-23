@@ -13,6 +13,7 @@ jobs:
           go-version: "1.x"
       - uses: actions/checkout@v2
         with:
+          token: ${{ secrets.SHOGO_GITHUB_TOKEN }}
           ref: main
           fetch-depth: 0
       - name: check updates
