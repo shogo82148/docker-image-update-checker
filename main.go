@@ -76,21 +76,32 @@ func saveStatus() error {
 }
 
 func checkUpdates() {
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
+
 	c := registry.New()
 	for _, image := range targets {
-		log.Printf("getting manifest: %s", image)
-		m, err := c.GetManifests(ctx, image)
-		if err != nil {
-			continue
+		if err := checkUpdate(ctx, c, image); err != nil {
+			log.Printf("failed to get %s: %v", image, err)
 		}
-		if !reflect.DeepEqual(status[image], m) {
-			log.Printf("updated: %s", image)
-			updated[image] = struct{}{}
-		}
-		status[image] = m
 	}
+}
+
+func checkUpdate(ctx context.Context, c *registry.Client, image string) error {
+	ctx, cancel := context.WithTimeout(ctx, 10*time.Second)
+	defer cancel()
+
+	log.Printf("getting manifest: %s", image)
+	m, err := c.GetManifests(ctx, image)
+	if err != nil {
+		return err
+	}
+	if !reflect.DeepEqual(status[image], m) {
+		log.Printf("updated: %s", image)
+		updated[image] = struct{}{}
+	}
+	status[image] = m
+	return nil
 }
 
 func commit() error {
@@ -126,6 +137,8 @@ func commit() error {
 }
 
 func main() {
+	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds)
+
 	updated = map[string]struct{}{}
 	if err := loadStatus(); err != nil {
 		log.Fatalf("failed to load status: %v", err)
