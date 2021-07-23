@@ -5,7 +5,10 @@ import (
 	"encoding/json"
 	"log"
 	"os"
+	"os/exec"
 	"reflect"
+	"sort"
+	"strings"
 	"time"
 
 	"github.com/shogo82148/docker-image-update-checker/registry"
@@ -44,7 +47,10 @@ func saveStatus() error {
 	if err != nil {
 		return err
 	}
-	return os.WriteFile(statusFile, data, 0644)
+	if err := os.WriteFile(statusFile, data, 0644); err != nil {
+		return err
+	}
+	return commit()
 }
 
 func checkUpdates() {
@@ -63,6 +69,38 @@ func checkUpdates() {
 		}
 		status[image] = m
 	}
+}
+
+func commit() error {
+	if len(updated) == 0 {
+		return nil
+	}
+	updates := make([]string, 0, len(updated))
+	for image := range updated {
+		updates = append(updates, image)
+	}
+	sort.Strings(updates)
+
+	git, err := exec.LookPath("git")
+	if err != nil {
+		return err
+	}
+	commands := []struct {
+		cmd  string
+		args []string
+	}{
+		{git, []string{"config", "--local", "user.name", "Ichinose Shogo"}},
+		{git, []string{"config", "--local", "user.email", "shogo82148@gmail.com"}},
+		{git, []string{"add", statusFile}},
+		{git, []string{"commit", "-m", "update: " + strings.Join(updates, ", ")}},
+		{git, []string{"push", "origin", "main"}},
+	}
+	for _, command := range commands {
+		if err := exec.Command(command.cmd, command.args...).Run(); err != nil {
+			return err
+		}
+	}
+	return nil
 }
 
 func main() {
