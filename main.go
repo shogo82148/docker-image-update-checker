@@ -26,6 +26,7 @@ var targets = []string{
 	// debian
 	"buildpack-deps:bullseye",
 	"buildpack-deps:buster",
+	"debian:bookworm-slim",
 	"debian:bullseye-slim",
 	"debian:buster-slim",
 
