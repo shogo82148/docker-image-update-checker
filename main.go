@@ -17,10 +17,11 @@ import (
 
 var targets = []string{
 	// alpine
-	"alpine:3.11",
-	"alpine:3.12",
-	"alpine:3.13",
+	"alpine:3.15",
 	"alpine:3.14",
+	"alpine:3.13",
+	"alpine:3.12",
+	"alpine:3.11",
 
 	// debian
 	"buildpack-deps:bullseye",
