@@ -38,6 +38,7 @@ var targets = []string{
 
 	// amazonlinux
 	"amazonlinux:2",
+	"amazonlinux:2022",
 
 	// images for AWS Lambda
 	"amazon/aws-lambda-provided:al2",
