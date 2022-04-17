@@ -24,6 +24,7 @@ var targets = []string{
 	"alpine:3.11",
 
 	// debian
+	"buildpack-deps:bookworm",
 	"buildpack-deps:bullseye",
 	"buildpack-deps:buster",
 	"debian:bookworm-slim",
