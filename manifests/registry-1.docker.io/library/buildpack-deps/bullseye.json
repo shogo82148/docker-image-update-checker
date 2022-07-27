@@ -60,7 +60,7 @@
             "size": 1377
         },
         {
-            "digest": "sha256:8e87be1a9120489073c507982cecd5427f4c84d1e631b5b063c8d24574d238df",
+            "digest": "sha256:adf2895082dcb323c67ef6ccb5ddd0be52f8611abc775bfe6fe3bab380943adc",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "ppc64le",
