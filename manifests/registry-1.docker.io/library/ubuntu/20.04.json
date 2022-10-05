@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
     "manifests": [
         {
-            "digest": "sha256:a0a45bd8c6c4acd6967396366f01f2a68f73406327285edc5b7b07cb1cf073db",
+            "digest": "sha256:e722c7335fdd0ce77044ab5942cb1fbd2b5f60d1f5416acfcdb0814b2baf7898",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:d23aa8e657602b0991be01bc98845f0039044e0274be15e0cff1ae330ab013b8",
+            "digest": "sha256:e5a044019a4cde9840aca3ed43534d096e1b6f0c035f7780a2da41827d25986f",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -22,7 +22,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:b18dbe0837fd555c7028af6a1281ffa4fd1b5ffd835968f1009fd4cf9dfeaec3",
+            "digest": "sha256:9488eba63bece0e05cd2cd84ce4dbe2710c8666f10259bbb9ebe55c4ff4f5704",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm64",
@@ -41,7 +41,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:e75cfa7ef5d58be253efa7d0fd4e027453d426734953dd39dd0d195705180855",
+            "digest": "sha256:fc82f4ab16ae703eaa7668641f603989d88f6d6cc2c8f829668841ea8b9ff57b",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "riscv64",
@@ -50,7 +50,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:79b29fd5d282f6fa2b03eb47235ab8aaaf1c360d7ebcfb82ba3af8a6eb52eebe",
+            "digest": "sha256:b35c29ac3a591589ae2dece70c29b9b0c5d47b47ad8e20e2392e13824ca952b8",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "s390x",

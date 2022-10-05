@@ -12,7 +12,7 @@
             "size": 1377
         },
         {
-            "digest": "sha256:3f8a29377dfd62b6a2d938a04d4daf844bc51923c4fe594f58d3bffc8f929488",
+            "digest": "sha256:073dad6c6d015efc04cdd328f1319af8f8af30d4ef7cc37ca32f448927ebb4bf",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -32,7 +32,7 @@
             "size": 1377
         },
         {
-            "digest": "sha256:eb8e733290049ea85faed01a887234a36e6e568d69c286430aad9a3aba885e3a",
+            "digest": "sha256:3d3d3d07a4e70db3618d0b6b6c32e3b48559d9edddf7fe5cbf3ecad43090b857",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm64",
@@ -42,7 +42,7 @@
             "size": 1377
         },
         {
-            "digest": "sha256:fa348efb9a81dd7aa443baff5d340d555af67652acb715fe27b2af90a6bd3c97",
+            "digest": "sha256:4dbba6ef8075c74a7ac0722a67b3584f1584d8595a5d7a0001587c8a2a6f05c3",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "386",
@@ -60,7 +60,7 @@
             "size": 1377
         },
         {
-            "digest": "sha256:5a318f8d2785dea7ec24579ea05be861cfc34d7210225ee4c6c8d69c552d7eb3",
+            "digest": "sha256:7654e80222f13750dfe45f4fedbb6a0d0fbad815e6247353bde9c04a345f9d45",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "ppc64le",
@@ -69,7 +69,7 @@
             "size": 1377
         },
         {
-            "digest": "sha256:b35f8d18bd9e332292778cebfb489f064598fd26c1e62281cea3d86168fed969",
+            "digest": "sha256:d18202bbbe81aae5488504ea88979949dd3793205b0e61db17937991d365d7a0",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "s390x",
