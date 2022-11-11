@@ -4,7 +4,7 @@
     "config": {
         "mediaType": "application/vnd.docker.container.image.v1+json",
         "size": 2554,
-        "digest": "sha256:0d156f1c7246b1d66805bc6bab5f4b167e20a6153505a2300e0a8a9931fab597"
+        "digest": "sha256:01d17de60dd1d944493f4d8f77533c2530501bdfb6bc4ec1adf452d89d81b04a"
     },
     "layers": [
         {
@@ -14,13 +14,13 @@
         },
         {
             "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 108653,
-            "digest": "sha256:918eb6ee18080f4935ace308382eb1042abc9ef8120f66f9a75d4472b346b9a2"
+            "size": 108639,
+            "digest": "sha256:90178d3b2857a242bf1d855d388dbe349a041bd698075fa19ee0f478bace799d"
         },
         {
             "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
-            "size": 418,
-            "digest": "sha256:d9f596a1e53f68a9e28cf958ded52897f786421203d607d4eedef130bc39613b"
+            "size": 415,
+            "digest": "sha256:3cc12cc1cfb2908ebb8f19c462d4dad953eca52a4d9b42eea54f389a0b0cd72e"
         },
         {
             "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
