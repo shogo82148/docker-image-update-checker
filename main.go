@@ -17,6 +17,7 @@ import (
 
 var targets = []string{
 	// alpine
+	"alpine:3.17",
 	"alpine:3.16",
 	"alpine:3.15",
 	"alpine:3.14",
