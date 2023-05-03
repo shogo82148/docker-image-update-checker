@@ -3,42 +3,42 @@
     "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
     "manifests": [
         {
-            "digest": "sha256:2ea103832a6fac73696522edc50dc0aa8c41a2073edb2d29685224196ed046e0",
+            "digest": "sha256:24959ddce02ec9e7f0d9f7b0e04a21d8beee62a42f0ae98ab68851c5ae819521",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "amd64",
                 "os": "linux"
             },
-            "size": 1377
+            "size": 1166
         },
         {
-            "digest": "sha256:410344bd121264c1e44e6ff6404552757b78c17737dcb22a19f6ae20ba31f66d",
+            "digest": "sha256:91648b9b4dcba93b640e4b50505836963e714a175e8985cd1e5d4089894ce2fa",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
                 "os": "linux",
                 "variant": "v7"
             },
-            "size": 1376
+            "size": 1166
         },
         {
-            "digest": "sha256:5e8e3f3212dcc5c0e3442e591cffe69a01891021308eca92c8b3bc2803c31459",
+            "digest": "sha256:39177ddd8cb356b1bc7e157a25430e30bf8b1edc93b13f5c600908cf233c00ae",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm64",
                 "os": "linux",
                 "variant": "v8"
             },
-            "size": 1377
+            "size": 1166
         },
         {
-            "digest": "sha256:76a9d8ac8ca52b47077a29022657b9bdc9facd485bf6f6bc8c7115ed9915e020",
+            "digest": "sha256:3280e906d62ca9e6030aa17600f7e4f644eec8b06182f0c073315614944d6242",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "386",
                 "os": "linux"
             },
-            "size": 1377
+            "size": 1166
         }
     ]
 }
