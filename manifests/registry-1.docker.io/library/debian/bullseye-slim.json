@@ -69,7 +69,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:4a614398ac5b726cadb899ccc3bba0b3053a9d691e53c20e9023d77ac8b3e069",
+            "digest": "sha256:2055de1a9785285489957e3a5dd589c395d5ac91c140f189df93bcc872548411",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "s390x",
