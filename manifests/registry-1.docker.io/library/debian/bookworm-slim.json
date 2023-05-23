@@ -12,7 +12,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:16a3fae448857450519a1b9fae650cf3320c16e45738283bf81a55e734fcb9c0",
+            "digest": "sha256:12d6ee48ccf42c381783a7c468933a1672df30899c8861b431cd70909ad21111",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -22,7 +22,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:9a962fd681218c27294cf6060429bea565eb89df7e16e758ae1a6a984d297979",
+            "digest": "sha256:6a54970d0a93b5815bbb5d5568af2626acb2d7eeffcc134a03ea9e45315e4132",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -32,7 +32,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:e6398a7a1e9fb3b33a923b1e7a1f0576887939543a2f34d6b0bb02ae1a4ce732",
+            "digest": "sha256:d124c6872abaf90c52a05c3d762c754c88fe9c45850234e0d254911f6909352e",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm64",
@@ -42,7 +42,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:04ba27dc0e21d32a15e47a85410cd1ac6fa3c1ddd26112019d373c899b33008b",
+            "digest": "sha256:a35a721a06d9de1bf10193207c17e6de3de76f4dbe9ea74eb839e2b04a51483d",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "386",
@@ -69,7 +69,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:55fabe6211435935b6f7a4ddebb54040dea668829be41fd286d2da349626c8f8",
+            "digest": "sha256:ee86ffce7742045124c05b0cea47cefb29030f34b9c08ec1191d60f2664ff248",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "s390x",
