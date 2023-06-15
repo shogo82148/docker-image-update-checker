@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
     "manifests": [
         {
-            "digest": "sha256:e28792ec7904bff56f22df296d78cc1188caf347bd824570d0ecf235e4f6e4cd",
+            "digest": "sha256:5fefcf0a67bdce28447c74b2f4e7cdfc9b8f9ed39fc7d3567b09a8f7cbdab098",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 528
         },
         {
-            "digest": "sha256:7f69fee5bcd5e85d1494f308350daa722b5ea699529bbb58ef8866084e83741c",
+            "digest": "sha256:f3bfaebf52f2782e42f6df76fd45610f2df4011f0bdcbfd4f966e8f8a569f160",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -22,7 +22,7 @@
             "size": 528
         },
         {
-            "digest": "sha256:eccb47a2aad7163e097b833358391c9adab7d82bc5262e755f2b960c9ae54ee5",
+            "digest": "sha256:a16443e019cd316f5acd61a2e32c1e3a268c980f9ec6740320a461c240a487b9",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -32,7 +32,7 @@
             "size": 528
         },
         {
-            "digest": "sha256:de0254f3bb409dcf0c3750950afa18cfbcf763372cfbecd1161a095c76438f09",
+            "digest": "sha256:c0d719c2b86a494dd19dc07971f141f800d1e754aed280479ed0f744fe5fb5ad",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm64",
@@ -42,7 +42,7 @@
             "size": 528
         },
         {
-            "digest": "sha256:d4ea0cc0b15589bc3a5d56bc71d2babb508f40382376ad891192be958f924c4c",
+            "digest": "sha256:f859c3eaff78e17a34294d50cdce6ce0883bf3954817f0872f44ba27160791bf",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "386",
