@@ -21,7 +21,7 @@ jobs:
         with:
           repositories: R_kgDOFsB0TA
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           repository: shogo82148/mecab-docker
           token: ${{ steps.generate.outputs.token }}
