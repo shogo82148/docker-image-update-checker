@@ -19,7 +19,7 @@ jobs:
       - id: generate
         uses: shogo82148/actions-github-app-token@v0
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ steps.generate.outputs.token }}
           ref: main
