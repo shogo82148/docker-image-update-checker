@@ -17,7 +17,7 @@ jobs:
           go-version: "1.x"
 
       - id: generate
-        uses: shogo82148/actions-github-app-token@v0
+        uses: shogo82148/actions-github-app-token@v1
 
       - uses: actions/checkout@v4
         with:
