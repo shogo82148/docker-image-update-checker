@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: generate
-        uses: shogo82148/actions-github-app-token@v0
+        uses: shogo82148/actions-github-app-token@v1
         with:
           repositories: R_kgDOFsB0TA
 
