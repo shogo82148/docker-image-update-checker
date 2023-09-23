@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
     "manifests": [
         {
-            "digest": "sha256:993d82940dba5370065dd5afb99fab56cdaf9f7b88800e88ddbd622678a6d3ea",
+            "digest": "sha256:b081fff5a5d0ad435bc0e61ff06175880dadd76a50597b5cf9087d51906d126a",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "amd64",
