@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.oci.image.index.v1+json",
     "manifests": [
         {
-            "digest": "sha256:b492494d8e0113c4ad3fe4528a4b5ff89faa5331f7d52c5c138196f69ce176a6",
+            "digest": "sha256:b4b521bfcec90b11d2869e00fe1f2380c21cbfcd799ee35df8bd7ac09e6f63ea",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:2589fe6bcf90466564741ae0d8309d1323f33b6ec8a5d401a62d0b256bcc3c37",
+            "digest": "sha256:2d68720ced7118240068ccf25d7bedb118490cf15e4551f483cd0426da177f46",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm",
@@ -22,7 +22,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:94d12db896d07af18a04319f1023edd091629f558dcc29f84208a7cf5ca040ec",
+            "digest": "sha256:f58b48967ecc767fc238144ffdb7eb668cefcc8438de8f8a59c4cefbbf29b323",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm64",
@@ -32,7 +32,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:de1fcbe2d7e928d0be9476e3079df8e69072dfb140be94f5d34091f09f6917dd",
+            "digest": "sha256:b4b8cd982d392ba99d1a5d81fc9fccd2fe9f86b7ba43ad5ae52178410b03661d",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "ppc64le",
@@ -41,7 +41,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:ed1a67bb47f3c35d782293229127ac1f8d64873a131186c49fe079dada0fa7e0",
+            "digest": "sha256:7c789f181465e5474aa9093b939a9992e2e67637c827a1b81e7890c3f04f6bf6",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "s390x",
