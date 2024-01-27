@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
     "manifests": [
         {
-            "digest": "sha256:b6e5fbdf7e79701eb7c3b82928089980986395a8ab16f96cdc6e6874f618b375",
+            "digest": "sha256:f9b3530b7b1ac155e376c9f2952ac3db64d9478c50a0d1af74399618190dd99c",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 528
         },
         {
-            "digest": "sha256:06bc1bdf5dfb4158fd3c45e15036db1956dd30ffe186ced358cbd15e20be3416",
+            "digest": "sha256:9217ebab0ab3873aeb346bf91efee86fa5332e423b099054dc7926376e438fdc",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -22,7 +22,7 @@
             "size": 528
         },
         {
-            "digest": "sha256:1562d73c466545c260fe25e48ebb85155e15c86866ebcb8f127b143e318b170a",
+            "digest": "sha256:302f54605c19b104dbd527b287f9f000bb49ee0e4e4c6d513fe0cea8be7485e6",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -32,7 +32,7 @@
             "size": 528
         },
         {
-            "digest": "sha256:2ed652fe790473fe452f425905b52021661937d89587f32ec771c4e6bdfdd73f",
+            "digest": "sha256:74440a3ca0e58af8aa796467285de45d0e079067c79200f2cfab30d6a38051d8",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm64",
@@ -51,7 +51,7 @@
             "size": 528
         },
         {
-            "digest": "sha256:6d15b82978e410d282931b6b69bfb4f782937f2d384f7c0b425e7d98124529f8",
+            "digest": "sha256:e7e21aa02977ac4c1c6762c2ef4588533c03e4a84ae7d4c8497e3cd9afb5770b",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "ppc64le",
