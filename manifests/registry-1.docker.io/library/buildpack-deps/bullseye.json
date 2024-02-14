@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
     "manifests": [
         {
-            "digest": "sha256:ff2f5f8f1d00e9a9ff9c8d75af372c79ade7859af0b6cf0b7b531331f50fc5b8",
+            "digest": "sha256:ec4364bdd315fdc472bab4d87a51d587fcb1813d0cc1d17c6d21d89df0eef61c",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 1166
         },
         {
-            "digest": "sha256:1826b57bdb430d3194cd1c273314a7a7d77929e307578dc8ff11d80472ce5a74",
+            "digest": "sha256:525115c2edae697e4c45a3d1215c43510ae8c1148127942a70744e704bda5c5b",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -22,7 +22,7 @@
             "size": 1166
         },
         {
-            "digest": "sha256:0ad13234503438c9db7414897589f3941c39306f33a9b5822142c9bb93c86aab",
+            "digest": "sha256:2e90e892194199b70baf56d5e6566392aae642702703c600de598a9c2ef529ac",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm",
@@ -32,7 +32,7 @@
             "size": 1166
         },
         {
-            "digest": "sha256:be7bf6ba36d3d9037eababb65b039b1b122f1d3924d42dcb7bcaa117732ed580",
+            "digest": "sha256:bead412cd7bc6f3a520541a7fcb1adb88e2bbb8af483a53f3c01fef18180aed9",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm64",
@@ -42,7 +42,7 @@
             "size": 1166
         },
         {
-            "digest": "sha256:dcabfd5baceaa01f25a21569557d69f487a16b216e2e21beebc896544e60ce82",
+            "digest": "sha256:10d8d71dd7e96d009759d44e6f191565426f5b0eeff411d895663efceac249e1",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "386",
@@ -51,7 +51,7 @@
             "size": 1166
         },
         {
-            "digest": "sha256:6b4a293434f296ec194a59f51a7831ccbe6ae7eb4d9abdccd4d174152c36f172",
+            "digest": "sha256:d8529243fd7801839562450905e1c0c2fc68b800ba1b6df39e9d2098906a6003",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "mips64le",
@@ -60,7 +60,7 @@
             "size": 1166
         },
         {
-            "digest": "sha256:f8a8441060856266db9ad5c3c748b41665e1ca68b5f5b1fceba4ab6a5164b65b",
+            "digest": "sha256:259b518b1d580d800b84e8f725cd90d741153f0bb9ccbf83bd9fb4a34e630514",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "ppc64le",
@@ -69,7 +69,7 @@
             "size": 1166
         },
         {
-            "digest": "sha256:7e9bb947336ad421f4d3cbcc3ce8df0e635cbda9b7b158e582d07dd5f1674a97",
+            "digest": "sha256:40399894f40c09293a6bd15481f4c6b0eededdf9dcc7113d693bc3b02882019a",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "s390x",
