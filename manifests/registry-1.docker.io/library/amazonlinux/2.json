@@ -12,7 +12,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:02b92edcb0792526dea79d5af378569e0a7f94a471acaac1cef77206118ced27",
+            "digest": "sha256:2a16d92bb40db88c4f7ceef7a51480eb803490aab3afe599a900e1d449e0b8d8",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "arm64",
