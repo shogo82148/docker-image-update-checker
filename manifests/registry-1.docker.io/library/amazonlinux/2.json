@@ -21,14 +21,23 @@
             "size": 840
         },
         {
-            "digest": "sha256:dd0d08e5c8e0c160f2d92a6b87322756ba2311aebcd3bc2b47d9f7fcaed13f4f",
-            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:99dd1dd52a1057b8bb70c49d1d22aae895c8b829d299581e2ea9908dec8c8b74",
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm64",
                 "os": "linux",
                 "variant": "v8"
             },
-            "size": 529
+            "size": 1023
+        },
+        {
+            "digest": "sha256:855bde12b273ec324f622179dd72385b8e12468c6d822cc8ff391ee6f1260b68",
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "platform": {
+                "architecture": "unknown",
+                "os": "unknown"
+            },
+            "size": 840
         }
     ]
 }
