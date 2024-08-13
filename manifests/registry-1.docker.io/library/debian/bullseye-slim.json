@@ -51,7 +51,7 @@
             "size": 529
         },
         {
-            "digest": "sha256:1824730c7b3efc92418705ee9fa668a38ba75d5dc8e396ed0dfb754e64428f64",
+            "digest": "sha256:fe54246be5cf0ff1607e3d8cdc056c15263251745e95b4c1851b8d4aea33fc0b",
             "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
             "platform": {
                 "architecture": "mips64le",
