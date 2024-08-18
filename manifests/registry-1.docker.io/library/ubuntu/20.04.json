@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.oci.image.index.v1+json",
     "manifests": [
         {
-            "digest": "sha256:d86db849e59626d94f768c679aba441163c996caf7a3426f44924d0239ffe03f",
+            "digest": "sha256:85c08a37b74bc18a7b3f8cf89aabdfac51c525cdbc193a753f7907965e310ec2",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:717a8dabf82777782587740c79fd8704d3ec06583be6eacc67242cd00b9a0fd1",
+            "digest": "sha256:b1c2f353c993dbb50542e8fdde4d55b6f02293dd8889aeaa5abff6d7b0af5b86",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm",
@@ -22,7 +22,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:6edb9576e2a2080a42e4e0e9a6bc0bd91a2bf06375f9832d400bf33841d35ece",
+            "digest": "sha256:420b6f4cc783dc199667eae3316d9e066bd6e19931448c1e4b6f9a3759e52106",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm64",
@@ -41,16 +41,16 @@
             "size": 424
         },
         {
-            "digest": "sha256:c0e96f609e5f128bdb6d24d21d3bf0a9af6f17234976fa574dad7146a0f97fb2",
-            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:ba2b7c6aaabb68c52b3aea4fe14151316ff3ffefbd77d7b19cf4de450da98149",
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "riscv64",
                 "os": "linux"
             },
-            "size": 529
+            "size": 424
         },
         {
-            "digest": "sha256:bec8a96229e24d6a9b3c333071b645c7aa7d864596ac609fbbbc89d990312394",
+            "digest": "sha256:e89c80b086727e4411e6904eb9655a5bdfad9d5478e6a4be8601702d278505c0",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "s390x",
