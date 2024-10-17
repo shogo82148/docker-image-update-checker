@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.oci.image.index.v1+json",
     "manifests": [
         {
-            "digest": "sha256:4334ab5016f708cf4a15794e48ebea4c5666fd2bad49679badc4930bf42d9ccb",
+            "digest": "sha256:e5a6aeef391a8a9bdaee3de6b28f393837c479d8217324a2340b64e45a81e0ef",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:8e1fcaeb011b78519a2d06ec8a4bd4c84e2b584aa49ad6c82fe4f5ca200162fd",
+            "digest": "sha256:f716e58088b3d853ec814136f441d5c197825d38618f1b64086efb50184cc406",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm",
@@ -22,7 +22,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:d3075bef3a8dea9174be5d6c537b9828396fcb516851b8418c84cc770c94bbf2",
+            "digest": "sha256:4489868cec4ea83f1e2c8e9f493ac957ec1451a63428dbec12af2894e6da4429",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm64",
@@ -32,7 +32,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:a89e9a4e6e75a6c9b1f3898744edf74093d1d40f70bb71666c9f9c082f428fe3",
+            "digest": "sha256:09b2bb79d56a4cbe071ac6ebba0874e304f7e4f9be1676d856359ca06dafc9c3",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "ppc64le",
@@ -41,7 +41,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:aa23e326daa7a1f4bcd13c414efebde3ce33ebbeafd5ccdcc383e8cd4cdf24da",
+            "digest": "sha256:2df92b39fc9d196afff4c722852c53584e2129b3fae5e1c03eb8338278d6115f",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "riscv64",
@@ -50,7 +50,7 @@
             "size": 424
         },
         {
-            "digest": "sha256:0f8ff9783a36e5326836da25ab66d3a3457fb9edb3292f92fe8d548d464c7b68",
+            "digest": "sha256:6bd58aa92c554108320d17b094bed832c9b36f2a4d99f80f8b9767f54bd8682f",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "s390x",
