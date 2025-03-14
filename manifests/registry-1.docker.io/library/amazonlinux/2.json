@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.oci.image.index.v1+json",
     "manifests": [
         {
-            "digest": "sha256:ad24f6187f54be6782f516dbabfe25bda091a54ea00425aa677cf2ef8280fbfc",
+            "digest": "sha256:6f5f1a86b54c965ce6547fbb5fea13125be4f14cef8aeb627c27bdc3af203522",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 1021
         },
         {
-            "digest": "sha256:40c3a36e223aaddfce5500945ef796958a676d17ce8e5ddce5475960a897d205",
+            "digest": "sha256:abb4e1ead4739e132bedf58a0285397c65594ba349a04b01533e4e25eab93cc8",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
