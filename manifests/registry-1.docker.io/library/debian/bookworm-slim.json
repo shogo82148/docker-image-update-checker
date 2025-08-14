@@ -123,7 +123,7 @@
             "size": 562
         },
         {
-            "digest": "sha256:ad0050d554f9915bce7cc08669018811be7fb699e530b50e1c979dfcd44db45f",
+            "digest": "sha256:8f746dcf1f31397442ca9145b6f5ce2ec631268f822ec8ba7acca2064b1eef7d",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "s390x",
@@ -132,7 +132,7 @@
             "size": 1021
         },
         {
-            "digest": "sha256:4b394a867133473a3ade5594b29c6368832c1c53632b3e61ed8f8aee264586bb",
+            "digest": "sha256:bda13feb35c4dfce46f6e17e77b4e6b797d18c5b24ea54e560a92030084ed950",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
