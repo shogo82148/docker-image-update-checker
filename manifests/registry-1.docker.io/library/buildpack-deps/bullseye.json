@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.oci.image.index.v1+json",
     "manifests": [
         {
-            "digest": "sha256:f5cd04225720b3d1ebaa5baff6cf2501d90a461c94f51091365e7d92448db131",
+            "digest": "sha256:7f31879cf369909e66e903c255c8a499bc10b5dddfb05ac80da9b59948b9630a",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 1766
         },
         {
-            "digest": "sha256:aa09fb86b577ea44ee9dc835f1c70592a59a23681da1653de242737921ab2223",
+            "digest": "sha256:525f5ef1cc8ccf9acb08cbf5d6885bfb61c2fe16a9c227269341729ed6b6da58",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
@@ -40,7 +40,7 @@
             "size": 842
         },
         {
-            "digest": "sha256:316b5f64a76e72b325eccd52dec1c0f5be7fad418be50cfc63445acc33b0a23c",
+            "digest": "sha256:ae55ab81de1fd13c5016fc95a8492afc63251cb917e8bb80ba3d14b09ef3a22f",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm64",
@@ -50,7 +50,7 @@
             "size": 1768
         },
         {
-            "digest": "sha256:138c5d0e105705cd2ce88c41a9e1c1c6b6989ca865fcb33e0c9931a3b441a413",
+            "digest": "sha256:7ede147c2718c1fe531d21c2be1d22c635b5208618c093df104eced58dfe3163",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
@@ -59,7 +59,7 @@
             "size": 842
         },
         {
-            "digest": "sha256:7da14ff11aea6fa012e5aa66c78c6bcf2e3bc933bc1a71c15512b0f069b289a8",
+            "digest": "sha256:2cb612a26378d0aed6eb1dcafe7fbab2406a871afb1dcd53f83cecc7e1d2f07f",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "386",
@@ -68,7 +68,7 @@
             "size": 1765
         },
         {
-            "digest": "sha256:3da1a797dfe8a0b547bee1a28c19212084ff92a91e07f042e5f12bf7d8e8f2bb",
+            "digest": "sha256:2aa8f05ded14cfef740b6a35291cebecded1a3fb25e257b7f9f0aed79135c269",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
