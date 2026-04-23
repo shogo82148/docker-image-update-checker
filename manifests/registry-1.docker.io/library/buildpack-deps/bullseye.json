@@ -3,7 +3,7 @@
     "mediaType": "application/vnd.oci.image.index.v1+json",
     "manifests": [
         {
-            "digest": "sha256:e7c3532646ff851410b71ef77592f72833192f4c43ce6332f027b4d235f56237",
+            "digest": "sha256:ad5f53257eeb98fa14045b6a0ddc4875ca5f82fa9cb5a50750560bddf5f85bf8",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "amd64",
@@ -12,7 +12,7 @@
             "size": 1766
         },
         {
-            "digest": "sha256:a6519b1d485a037f547fba86380d94852fbeb42ec9da2866114c71eb69366600",
+            "digest": "sha256:b333823b76ceb28c645a46e7e3a55bb79fa52f4f488e5d4fd3b17f5571432135",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
@@ -21,7 +21,7 @@
             "size": 842
         },
         {
-            "digest": "sha256:2336c8a6044e48c713164dd6504b50d6843343132f094e9548f58f1d144a92ea",
+            "digest": "sha256:c9e26cba9c23da0b2f7fe76486e4306218e145dd4413e2bbfbeb8918fb985a4f",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm",
@@ -31,7 +31,7 @@
             "size": 1768
         },
         {
-            "digest": "sha256:d6e17184017440ffdc1410665bdb96c81ce5a159bb31f4d744fac21eefe5ad75",
+            "digest": "sha256:44040d682e7dfdc225bc1bc8fbe47356a4c9d8f5ddac17b8caa390084d081cf2",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
@@ -40,7 +40,7 @@
             "size": 842
         },
         {
-            "digest": "sha256:6d05d0aa6a6e476cb05ef738c61f69ff0b453806f4e7ef10cadb5ac72717e33a",
+            "digest": "sha256:cb5a3718feda064648abe1b7873c29837fa1b443aebde92637ee44d3737b6a0c",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "arm64",
@@ -50,7 +50,7 @@
             "size": 1768
         },
         {
-            "digest": "sha256:e9b819c2adbfbf9a2486c10c0b4078de62e85ad0341ea4fb1fa1cc5741c70b9a",
+            "digest": "sha256:e3c24169634e9ecf3ba104723f0b745f3999c9173d8afa5298c998fbaad512e2",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
@@ -59,7 +59,7 @@
             "size": 842
         },
         {
-            "digest": "sha256:8600640d2234bd5b1b1011426d2162974d18baf1e4981c8e91302d6dbf0f8e65",
+            "digest": "sha256:a93b0b03cf90c23eaa1dea6a4ab694b7e7b6e1bfb80dbfaceb021a69e5db3a97",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "386",
@@ -68,7 +68,7 @@
             "size": 1765
         },
         {
-            "digest": "sha256:fd1bd584434fb2e075e5004a5bb2aff2b783ec988ec6aabc1e3b9c51aa24ef6f",
+            "digest": "sha256:c76fa37cd605f300fc273cf504f39af8847a6cd14391333d76394337534271a6",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
