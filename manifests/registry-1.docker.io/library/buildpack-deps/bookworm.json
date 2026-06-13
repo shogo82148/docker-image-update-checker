@@ -96,7 +96,7 @@
             "size": 842
         },
         {
-            "digest": "sha256:fdcbaa5bcd21cfbb59f2203a8bedcd718e2915c1b366ce87eb45e0535f627498",
+            "digest": "sha256:1ee7e111a792fed0e89a2e13e6793c090a42d4522ba00dc54dbbefdead6ea177",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "mips64le",
@@ -105,7 +105,7 @@
             "size": 1769
         },
         {
-            "digest": "sha256:87df54db63c20bcb8e42906fda501b5f924f02215459796e4045261df2cc4bbd",
+            "digest": "sha256:95cf5b8480cc1cf847ae328afcede785ff94ce703bb8466d2eb3df983d4940df",
             "mediaType": "application/vnd.oci.image.manifest.v1+json",
             "platform": {
                 "architecture": "unknown",
